@@ -3,6 +3,7 @@ import "./App.css";
 import Switch from "../components/switch/switch";
 import Links from "../components/links/links";
 import Social from "../components/socialLinks/socialLinks";
+import Footer from "../components/footer/footer";
 
 import imgDarkMode from "../img/SUSS.webp";
 import imglightMode from "../img/sus.webp";
@@ -36,6 +37,7 @@ const App = () => {
         <Social href={"#"} icon={"logo-tiktok"}/>
 
       </div>
+      <Footer link={"#"}>@Vamosdub</Footer>
     </div>
   );
 };
