@@ -2,6 +2,7 @@ import Profile from "../components/profiles/profile";
 import "./App.css";
 import Switch from "../components/switch/switch";
 import Links from "../components/links/links";
+import Social from "../components/socialLinks/socialLinks";
 
 import imgDarkMode from "../img/SUSS.webp";
 import imglightMode from "../img/sus.webp";
@@ -27,6 +28,13 @@ const App = () => {
           <Links link={""}>Instagram</Links>
           <Links link={""}>Projetos</Links>
         </ul>
+      </div>
+      <div id="socialLinks">
+        <Social href={"#"} icon={"logo-github"}/>
+        <Social href={"#"} icon={"logo-youtube"}/>
+        <Social href={"#"} icon={"logo-instagram"}/>
+        <Social href={"#"} icon={"logo-tiktok"}/>
+
       </div>
     </div>
   );
