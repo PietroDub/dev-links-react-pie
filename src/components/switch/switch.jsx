@@ -1,4 +1,4 @@
-import { useSpring } from "react-spring";
+import { useSpring, animated } from "react-spring";
 import styles from "./switch.module.css";
 
 const Switch = ({ mode , infoButton}) => {
